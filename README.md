@@ -81,14 +81,18 @@ Ctrl+Shift+P → Remote-Containers: Reopen in Container 선택
 ③ 컨테이너 진입 후 VSCode 터미널에서 다음 입력:
 
 <pre> mkdir build && cd build 
-  cmake .. make ./main </pre>
+  cmake .. 
+  
+  make ./main </pre>
 ✅ 아래 메시지가 출력되면 성공
 
 <pre> Hello, C++ world! </pre>
 ### 📌 [환경2] PlatformIO (ESP32 Arduino) 환경 사용하기
 ① Git Bash에서 다음 입력:
 
-<pre> cd platformio code . </pre>
+<pre> cd platformio 
+  
+  code . </pre>
 ② VSCode 상단 메뉴에서:
 Ctrl+Shift+P → Remote-Containers: Reopen in Container 선택
 
@@ -105,7 +109,9 @@ Build → Upload → Monitor 클릭
 ### 📌 [환경3] ESP-IDF (ESP32 공식 SDK) 환경 사용하기
 ① Git Bash에서 다음 입력:
 
-<pre> cd esp-idf code . </pre>
+<pre> cd esp-idf
+  
+  code . </pre>
 ② VSCode 상단 메뉴에서:
 Ctrl+Shift+P → Remote-Containers: Reopen in Container 선택
 
@@ -115,7 +121,11 @@ Ctrl+Shift+P → Remote-Containers: Reopen in Container 선택
 
 ④ VSCode 터미널에서 다음 명령어 입력:
 
-<pre> . /opt/esp-idf/export.sh idf.py build idf.py -p [포트이름] flash monitor </pre>
+<pre> . /opt/esp-idf/export.sh 
+  
+  idf.py
+  
+  build idf.py -p [포트이름] flash monitor </pre>
 ⚠️ [포트이름]은 ESP32가 연결된 포트로, Windows에서는 보통 COM3, COM4 등
 
 (예시)
