@@ -1,0 +1,6 @@
+{
+  "name": "platformio",
+  "build": {"dockerfile": "Dockerfile"},
+  "extensions": ["platformio.platformio-ide"],
+  "remoteUser": "dev"
+}
