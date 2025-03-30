@@ -20,4 +20,10 @@ https://git-scm.com/downloads
 
 이미 있으면 패스
 -------------------------------
-###
+### VS code Extension 설정
+
+C/C++ (Microsoft 제공)
+CMake Tools (Microsoft 제공)
+PlatformIO IDE (PlatformIO 제공)
+DevContainers (Microsoft 제공)
+ESP-IDF (espressif Systems 제공)
