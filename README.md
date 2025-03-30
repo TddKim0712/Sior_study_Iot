@@ -12,11 +12,19 @@ Docker desktop installer.exe 를 설치한 후 실행한다. (시간 소요)
 
 ---------------------------------
 
-### Git 설치
+### Git, wsl 2 설치
 윈도우 검색에 git bash가 존재하거나, cmd (powershell)에 git 이라 쳤을때 
 모르는 커맨드라는 말이 아니면 git이 이미 있는 것이다.
 
 https://git-scm.com/downloads
+
+wsl 을 터미널에 쳤을 때 반응을 보면 설치여부를 알 수 있다,
+
+없으면
+
+https://rimiyeyo.tistory.com/entry/WSL2%EA%B0%9C%EB%85%90%EA%B3%BC-Windows%EC%97%90%EC%84%9C-WSL2%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%B4%EC%84%9C-Linux%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0
+
+이 사이트를 보고 따라하자
 
 이미 있으면 패스
 -------------------------------
