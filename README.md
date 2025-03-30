@@ -61,15 +61,26 @@ ESP-IDF (espressif Systems 제공)
 ### 📌 [환경1] C++ 개발 환경 사용하기
 ① Git Bash에서 다음 입력:
 
-<pre> cd cpp-dev code . </pre>
+<pre> cd cpp-dev 
+  code . </pre>
 ② VSCode 상단 메뉴에서:
 Ctrl+Shift+P → Remote-Containers: Reopen in Container 선택
+
+ 팝업 메뉴가 뜨면서 어떤 환경을 열지 물어볼 수 있음
+
+이 경우 VSCode에서 나오는 선택지에서 반드시 "From 'devcontainer.json'" 을 선택하면 됨
+(다른 옵션을 누르면 안됨)
+
+③ 만약 "Select the folder to reopen in container" 라고 물어본다면,
+
+→ 현재 열려 있는 폴더 (cpp-dev, platformio, esp-idf)를 정확히 선택해주면 됨.
 
 최초 실행 시 시간이 걸릴 수 있음
 
 ③ 컨테이너 진입 후 VSCode 터미널에서 다음 입력:
 
-<pre> mkdir build && cd build cmake .. make ./main </pre>
+<pre> mkdir build && cd build 
+  cmake .. make ./main </pre>
 ✅ 아래 메시지가 출력되면 성공
 
 <pre> Hello, C++ world! </pre>
